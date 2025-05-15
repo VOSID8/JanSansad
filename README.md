@@ -1,7 +1,7 @@
 # Introduction
 Jansansad is a command-line tool built in Scala to download, generate data, process, and analyze Indian parliamentary speeches for past 5 Lok Sabha Sessions. It allows you to extract word-level insights across Lok Sabha sessions, making large-scale legislative discourse analyzable and visual. The project uses scalaj-http, jsoup, PDFBox, Apache Spark, EvilPlot and PostgreSQL.  
 
-Tech Blog - 
+Tech Blog -  
 Social Blog (results) - 
 
 # How to Set up
