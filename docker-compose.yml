@@ -1,0 +1,14 @@
+services:
+  jansansad_db:
+    image: postgres:latest
+    container_name: jansansad_db_container
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: sansad123
+    ports:
+      - "5433:5432"
+    volumes:
+      - jansansad_pgdata:/var/lib/postgresql/data
+
+volumes:
+  jansansad_pgdata:
